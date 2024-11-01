@@ -1,0 +1,307 @@
+/*:root{--my-plugin_color-primary:#00a0d2}#dashboard_right_now a.demo-count:before{content:""}*/
+
+#wpcontent{
+    padding-left:0px;
+}
+.yespo-settings-page{
+    background-color: #f0f0f1;
+}
+.yespo-settings-page .topPanel{
+    width:100%;
+    background-color: #fff;
+    height: 52px;
+    text-align:center;
+}
+.yespo-settings-page .contentPart{
+    max-width: 990px;
+}
+.yespo-settings-page .topPanel .panelBox{
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 8px 0;
+}
+
+.yespo-settings-page .userPanel .contentPart{
+    margin:0 auto;
+}
+
+.yespo-settings-page .userPanel{
+    margin: 20px 0;
+}
+.yespo-settings-page .settingsSection .sectionBody{
+    padding: 12px 20px;
+    background-color: #fff;
+    overflow: auto;
+}
+.yespo-settings-page h1{
+    font-weight: 700;
+    font-size: 21px;
+    line-height: 24.61px;
+}
+.yespo-settings-page p{
+    color: #5f5f5f;
+}
+
+.yespo-settings-page .settingsSection .sectionBody .field-group{
+    margin:15px 0;
+}
+
+.yespo-settings-page .settingsSection .sectionBody .formBlock{
+    width:100%;
+}
+.yespo-settings-page .userPanel h4,
+.yespo-settings-page .userPanel .api-key-text{
+    color: #9b9b9b;
+}
+.yespo-settings-page .userPanel h4 {
+    font-size: 13px;
+    line-height: 15.23px;
+    font-weight: 400;
+}
+.yespo-settings-page #checkYespoAuthorization h4 {
+    font-weight: 700;
+    color:#525252;
+}
+
+.yespo-settings-page .settingsSection .sectionBody .formBlock #api_key,
+.yespo-settings-page .settingsSection .sectionBody .formBlock #api_key:focus {
+    max-width: 600px;
+    width:100%;
+    height: 21px;
+    box-shadow: none !important;
+    border-top: 1px solid #fff !important;
+    border-left: 1px solid #fff !important;
+    border-right: 1px solid #fff !important;
+    border-bottom: 1px solid #e3e3e3 !important;
+}
+
+.yespo-settings-page .settingsSection .sectionBody .formBlock input,
+.yespo-settings-page .settingsSection .sectionBody .formBlock #export_users,
+.yespo-settings-page .settingsSection .sectionBody .formBlock #export_orders{
+    width:100%;
+    height: 43px;
+    border-radius: 4px;
+    border: 1px solid #e3e3e3;
+}
+.yespo-settings-page .settingsSection .sectionBody .formBlock input::placeholder{
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 15px;
+    color: #000;
+    opacity: 0.5;
+}
+.yespo-settings-page .settingsSection .sectionBody .formBlock .field-group .informationText{
+    font-size: 11px;
+    line-height: 11px;
+}
+.yespo-settings-page .settingsSection .sectionBody .formBlock #sendYespoAuthData{
+    min-width:117px;
+    height: 34px;
+    font-weight: 400;
+}
+.yespo-settings-page .settingsSection .sectionBody .formBlock #sendYespoAuthData{
+    max-width: 200px;
+    min-width:117px;
+    height: 34px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 18px;
+}
+.yespo-settings-page .settingsSection .sectionBody .formBlock #api_key{
+    padding:0px;
+}
+
+.yespo-settings-page .settingsSection .sectionBody .formBlock .errorAPiKey p{
+    color: red;
+}
+.yespo-settings-page .settingsSection .processTitles{
+    display: flex;
+    justify-content: space-between;
+}
+.yespo-settings-page .settingsSection .processTitles{
+    display: flex;
+    justify-content: space-between;
+}
+
+.yespo-settings-page .settingsSection .processTitle,
+.yespo-settings-page .settingsSection .processPercent{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 18px;
+    color:#000;
+}
+
+.yespo-settings-page .settingsSection .progress-container {
+    width: 100%;
+    height: 17px;
+    background-color: #5989EA33;
+    border-radius: 10px;
+    margin: 10px auto;
+}
+.yespo-settings-page .settingsSection #progressContainerStopped{
+    background-color: #e9e9e9;
+}
+
+.yespo-settings-page .settingsSection .progress-bar {
+    height: 11px;
+    background-color: #5989EA;
+    position: relative;
+    top: 3px;
+    border-radius: 10px;
+    margin: auto 3px;
+}
+
+.yespo-settings-page .settingsSection .flexRow{
+    display:flex;
+}
+.yespo-settings-page .settingsSection #exportProgressBarStopped {
+    background-color:#9b9b9b;
+}
+.yespo-settings-page .settingsSection .synhronizationStarted{
+    color:#5989EA;
+    font-size: 13px;
+    margin-top: 8px;
+    margin-left: 20px;
+}
+.yespo-settings-page .settingsSection #stop-send-data{
+    font-size: 16px;
+    line-height: 18px;
+    color: #000;
+    background-color: #fff;
+    min-width: 63px;
+    max-width: 200px;
+    height: 34px;
+}
+
+/* section resume */
+.yespo-settings-page .settingsSection .messageNonce{
+    border-radius: 4px;
+    border-left: 3px solid #31b3f4;
+    background-color: #e9faff;
+    box-shadow: 0px 2px 4px 0px #0000001F;
+    display: flex;
+    justify-content: space-evenly;
+    padding:10px 0;
+}
+.yespo-settings-page .settingsSection .messageText{
+    position: relative;
+    max-width: 80%;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 17.58px;
+}
+
+.yespo-settings-page .settingsSection .messageIcon > img{
+    height: 100%;
+}
+.yespo-settings-page .settingsSection .messageIcon > img,
+.yespo-settings-page .settingsSection .messageButton{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.yespo-settings-page .settingsSection .messageButton {
+    position: relative;
+    display: inline-block;
+}
+
+.yespo-settings-page .settingsSection .messageButton button,
+.yespo-settings-page .settingsSection .messageButtonError #resume-send-data{
+    min-width: 107px;
+    height: 34px;
+}
+.yespo-settings-page .settingsSection .messageButton button img,
+.yespo-settings-page .settingsSection .messageButtonError button img{
+    margin-right: 10px;
+}
+.yespo-settings-page .settingsSection .messageButton button span,
+.yespo-settings-page .settingsSection .messageButtonError button span{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 18px;
+}
+
+/* section error */
+.yespo-settings-page .settingsSection .percentRed{
+    color: #ec514d;
+}
+.yespo-settings-page .settingsSection .messageNonceError{
+    border-radius: 4px;
+    border-left: 3px solid #ec514d;
+    background-color: #fff5f4;
+    box-shadow: 0px 2px 4px 0px #0000001F;
+    display: flex;
+    justify-content: space-evenly;
+    padding:10px 0;
+}
+.yespo-settings-page .settingsSection .messageTextError{
+    position: relative;
+    width: 60%;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 17.58px;
+}
+
+.yespo-settings-page .settingsSection .messageIconError{
+    min-width: 36px;
+    text-align: -webkit-center;
+}
+.yespo-settings-page .settingsSection .messageIconError > img{
+    height: 100%;
+}
+.yespo-settings-page .settingsSection .messageIconError > img,
+.yespo-settings-page .settingsSection .messageButtonError{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.yespo-settings-page .settingsSection .messageButtonError {
+    position: relative;
+    /*display: inline-block;*/
+}
+
+.yespo-settings-page .settingsSection .messageButtonError #contact-support {
+    max-width:300px;
+    height: 34px;
+    box-shadow: 0px 2px 4px 0px #0000001F;
+    border: 1px solid #e3e3e3;
+    align-items: center;
+    display: inline-flex;
+    margin-right: 7px;
+}
+
+.yespo-settings-page .settingsSection .messageButtonError #contact-support span{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 18px;
+    color:#000;
+    margin-left: 10px;
+}
+
+/* section success */
+.yespo-settings-page .sectionBodySuccess{
+    padding: 0 !important;
+    overflow: initial !important;
+}
+.yespo-settings-page .settingsSection .messageNonceSuccess{
+    border-radius: 4px;
+    border-left: 3px solid #3abc51;
+    background-color: #e3ffe7;
+    box-shadow: 0px 2px 4px 0px #0000001F;
+    display: flex;
+    justify-content: start;
+    padding:10px 0;
+    align-items: center;
+}
+.yespo-settings-page .settingsSection .messageNonceSuccess .messageIconSuccess{
+    margin: auto 20px;
+}
+.yespo-settings-page .settingsSection .messageTextSuccess{
+    position: relative;
+    max-width: 90%;
+    font-size: 15px;
+}

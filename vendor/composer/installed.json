@@ -1,0 +1,435 @@
+{
+    "packages": [
+        {
+            "name": "inpsyde/assets",
+            "version": "dev-master",
+            "version_normalized": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/inpsyde/assets.git",
+                "reference": "8bd2a3c5d227fdda36194abefe7c6885f1083673"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/inpsyde/assets/zipball/8bd2a3c5d227fdda36194abefe7c6885f1083673",
+                "reference": "8bd2a3c5d227fdda36194abefe7c6885f1083673",
+                "shasum": ""
+            },
+            "require": {
+                "ext-dom": "*",
+                "ext-json": "*",
+                "inpsyde/wp-context": "^1.3",
+                "php": ">=7.2"
+            },
+            "require-dev": {
+                "brain/monkey": "^2.5.0",
+                "inpsyde/php-coding-standards": "^1",
+                "johnpbloch/wordpress-core": ">=6.0",
+                "mikey179/vfsstream": "^1.6.8",
+                "php-stubs/wordpress-stubs": ">=6.0@stable",
+                "phpunit/phpunit": "^8.5.14 || ^9.0",
+                "vimeo/psalm": "@stable"
+            },
+            "time": "2024-03-07T06:12:01+00:00",
+            "default-branch": true,
+            "type": "library",
+            "extra": {
+                "wordpress-install-dir": "vendor/wordpress/wordpress"
+            },
+            "installation-source": "dist",
+            "autoload": {
+                "files": [
+                    "inc/functions.php",
+                    "inc/bootstrap.php"
+                ],
+                "psr-4": {
+                    "Inpsyde\\Assets\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "GPL-2.0-or-later"
+            ],
+            "authors": [
+                {
+                    "name": "Inpsyde",
+                    "email": "hello@inpsyde.com",
+                    "homepage": "https://inpsyde.com",
+                    "role": "Company"
+                },
+                {
+                    "name": "Christian Leucht",
+                    "email": "c.leucht@inpsyde.com",
+                    "homepage": "https://www.chrico.info",
+                    "role": "Developer"
+                }
+            ],
+            "description": "Package to manage assets in WordPress.",
+            "support": {
+                "issues": "https://github.com/inpsyde/assets/issues",
+                "source": "https://github.com/inpsyde/assets/tree/master"
+            },
+            "install-path": "../inpsyde/assets"
+        },
+        {
+            "name": "inpsyde/wp-context",
+            "version": "dev-main",
+            "version_normalized": "dev-main",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/inpsyde/wp-context.git",
+                "reference": "6dbd9939146a84a73e00dc1fb9bf770fdd4458aa"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/inpsyde/wp-context/zipball/6dbd9939146a84a73e00dc1fb9bf770fdd4458aa",
+                "reference": "6dbd9939146a84a73e00dc1fb9bf770fdd4458aa",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=7.1"
+            },
+            "require-dev": {
+                "brain/monkey": "^2.6.1",
+                "inpsyde/php-coding-standards": "^1",
+                "inpsyde/wp-stubs": "dev-main",
+                "mockery/mockery": "~1.3.6",
+                "phpunit/phpunit": "~7.5.20 || ^8",
+                "vimeo/psalm": "^4.27.0"
+            },
+            "time": "2024-10-10T08:19:44+00:00",
+            "default-branch": true,
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-main": "1.x-dev"
+                }
+            },
+            "installation-source": "dist",
+            "autoload": {
+                "psr-4": {
+                    "Inpsyde\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "gpl-2.0-or-later"
+            ],
+            "authors": [
+                {
+                    "name": "Inpsyde GmbH",
+                    "email": "hello@inpsyde.com",
+                    "homepage": "https://inpsyde.com/",
+                    "role": "Company"
+                },
+                {
+                    "name": "Giuseppe Mazzapica",
+                    "email": "g.mazzapica@inpsyde.com",
+                    "role": "Developer"
+                }
+            ],
+            "description": "A single-class utility to check the running context in WordPress sites.",
+            "support": {
+                "issues": "https://github.com/inpsyde/wp-context/issues",
+                "source": "https://github.com/inpsyde/wp-context/tree/main"
+            },
+            "install-path": "../inpsyde/wp-context"
+        },
+        {
+            "name": "micropackage/internationalization",
+            "version": "1.0.2",
+            "version_normalized": "1.0.2.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/micropackage/internationalization.git",
+                "reference": "cb140d4c4cbf9828bfcb20242b202517379381df"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/micropackage/internationalization/zipball/cb140d4c4cbf9828bfcb20242b202517379381df",
+                "reference": "cb140d4c4cbf9828bfcb20242b202517379381df",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.6"
+            },
+            "require-dev": {
+                "dealerdirect/phpcodesniffer-composer-installer": "^0.5.0",
+                "phpcompatibility/php-compatibility": "^9.1",
+                "wp-coding-standards/wpcs": "^2.0"
+            },
+            "time": "2023-06-23T08:54:05+00:00",
+            "type": "library",
+            "installation-source": "dist",
+            "autoload": {
+                "psr-4": {
+                    "Micropackage\\Internationalization\\": "src"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "GPL-3.0-or-later"
+            ],
+            "authors": [
+                {
+                    "name": "Jakub Mikita",
+                    "email": "jakub@bracketspace.com"
+                }
+            ],
+            "description": "Internationalization (i18n) wrapper for WordPress plugins, themes or libraries",
+            "support": {
+                "issues": "https://github.com/micropackage/internationalization/issues",
+                "source": "https://github.com/micropackage/internationalization/tree/1.0.2"
+            },
+            "install-path": "../micropackage/internationalization"
+        },
+        {
+            "name": "micropackage/requirements",
+            "version": "dev-develop",
+            "version_normalized": "dev-develop",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/micropackage/requirements.git",
+                "reference": "5efa4d00b96f49d94fec3e1284334c3d3d2f69cf"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/micropackage/requirements/zipball/5efa4d00b96f49d94fec3e1284334c3d3d2f69cf",
+                "reference": "5efa4d00b96f49d94fec3e1284334c3d3d2f69cf",
+                "shasum": ""
+            },
+            "require": {
+                "micropackage/internationalization": "^1.0",
+                "php": ">=5.6"
+            },
+            "require-dev": {
+                "dealerdirect/phpcodesniffer-composer-installer": "^0.7.1",
+                "php-mock/php-mock-phpunit": "^2.5",
+                "phpcompatibility/php-compatibility": "^9.1",
+                "phpunit/phpunit": "^6.5.5",
+                "wp-coding-standards/wpcs": "^2.0"
+            },
+            "time": "2023-06-23T09:01:10+00:00",
+            "default-branch": true,
+            "type": "library",
+            "installation-source": "dist",
+            "autoload": {
+                "psr-4": {
+                    "Micropackage\\Requirements\\": "src"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "GPL-3.0-or-later"
+            ],
+            "authors": [
+                {
+                    "name": "Jakub Mikita",
+                    "email": "jakub@bracketspace.com"
+                }
+            ],
+            "description": "Requirements checker for WordPress plugins",
+            "support": {
+                "issues": "https://github.com/micropackage/requirements/issues",
+                "source": "https://github.com/micropackage/requirements/tree/develop"
+            },
+            "install-path": "../micropackage/requirements"
+        },
+        {
+            "name": "wpbp/debug",
+            "version": "dev-master",
+            "version_normalized": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/WPBP/Debug.git",
+                "reference": "42dcbe2ab429df037f1248da568e970f9021934f"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/WPBP/Debug/zipball/42dcbe2ab429df037f1248da568e970f9021934f",
+                "reference": "42dcbe2ab429df037f1248da568e970f9021934f",
+                "shasum": ""
+            },
+            "time": "2024-07-11T10:36:59+00:00",
+            "default-branch": true,
+            "type": "library",
+            "installation-source": "dist",
+            "autoload": {
+                "files": [
+                    "debug.php"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "GPL-3.0"
+            ],
+            "authors": [
+                {
+                    "name": "Daniele Scasciafratte",
+                    "email": "mte90net@gmail.com",
+                    "homepage": "http://mte90.net"
+                }
+            ],
+            "description": "Add your plugin to Query Monitor",
+            "homepage": "https://github.com/WPBP/Debug",
+            "keywords": [
+                "debug",
+                "wordpress"
+            ],
+            "support": {
+                "issues": "https://github.com/WPBP/Debug/issues",
+                "source": "https://github.com/WPBP/Debug/tree/1.1.4"
+            },
+            "install-path": "../wpbp/debug"
+        },
+        {
+            "name": "wpbp/i18n-notice",
+            "version": "dev-main",
+            "version_normalized": "dev-main",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/WPBP/i18n-notice.git",
+                "reference": "0ef6a2c84e91e8583fcb90769b965c88116a839a"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/WPBP/i18n-notice/zipball/0ef6a2c84e91e8583fcb90769b965c88116a839a",
+                "reference": "0ef6a2c84e91e8583fcb90769b965c88116a839a",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=7.1"
+            },
+            "time": "2023-01-18T15:42:53+00:00",
+            "default-branch": true,
+            "type": "library",
+            "installation-source": "dist",
+            "autoload": {
+                "classmap": [
+                    "src/"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "GPL-2.0-or-later"
+            ],
+            "authors": [
+                {
+                    "name": "Team Yoast",
+                    "email": "support@yoast.com",
+                    "homepage": "https://yoast.com"
+                }
+            ],
+            "description": "Handle i18n for plugins, based on Yoast i18n-module ",
+            "homepage": "https://github.com/WPBP/i18n-notice",
+            "keywords": [
+                "wordpress"
+            ],
+            "support": {
+                "issues": "https://github.com/WPBP/i18n-notice/issues",
+                "source": "https://github.com/WPBP/i18n-notice"
+            },
+            "install-path": "../wpbp/i18n-notice"
+        },
+        {
+            "name": "wpdesk/wp-builder",
+            "version": "2.1.1",
+            "version_normalized": "2.1.1.0",
+            "source": {
+                "type": "git",
+                "url": "https://gitlab.wpdesk.dev/wpdesk/wp-builder",
+                "reference": "bf30b1ac6f94f39654a29552cb26d8dad5dda085"
+            },
+            "require": {
+                "php": ">=5.5"
+            },
+            "require-dev": {
+                "10up/wp_mock": "*",
+                "mockery/mockery": "*",
+                "phpunit/phpunit": "<7",
+                "squizlabs/php_codesniffer": "^3.0.2",
+                "wimg/php-compatibility": "^8",
+                "wp-coding-standards/wpcs": "^0.14.1"
+            },
+            "time": "2023-12-12T11:21:37+00:00",
+            "type": "library",
+            "extra": {
+                "text-domain": "wpdesk-wp-builder",
+                "translations-folder": "lang",
+                "po-files": {
+                    "pl_PL": "pl_PL.po"
+                }
+            },
+            "installation-source": "source",
+            "autoload": {
+                "psr-4": {
+                    "WPDesk\\PluginBuilder\\": "src/"
+                },
+                "classmap": [
+                    "src/Plugin/WithoutNamespace"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "authors": [
+                {
+                    "name": "Krzysiek",
+                    "email": "krzysiek@wpdesk.pl"
+                }
+            ],
+            "install-path": "../wpdesk/wp-builder"
+        },
+        {
+            "name": "wpdesk/wp-notice",
+            "version": "3.2.5",
+            "version_normalized": "3.2.5.0",
+            "source": {
+                "type": "git",
+                "url": "https://gitlab.wpdesk.dev/wpdesk/wp-notice",
+                "reference": "a59008f6f5cdccc598cb7063f52da78c8199cb1d"
+            },
+            "require": {
+                "php": ">=7.0.8",
+                "wpdesk/wp-builder": "^1.0|^2.0"
+            },
+            "require-dev": {
+                "10up/wp_mock": "*",
+                "mockery/mockery": "*",
+                "squizlabs/php_codesniffer": "^3.0.2",
+                "wimg/php-compatibility": "^8",
+                "wp-coding-standards/wpcs": "^0.14.1",
+                "wpdesk/wp-codeception": "^2.7"
+            },
+            "time": "2024-07-23T13:33:41+00:00",
+            "type": "library",
+            "installation-source": "source",
+            "autoload": {
+                "files": [
+                    "src/WPDesk/notice-functions.php"
+                ],
+                "psr-4": {
+                    "WPDesk\\Notice\\": "src/WPDesk/Notice/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "grola",
+                    "email": "grola@wpdesk.net"
+                }
+            ],
+            "description": "Library for displaying Wordpress notices.",
+            "homepage": "https://gitlab.com/wpdesk/wp-notice",
+            "keywords": [
+                "admin",
+                "notice",
+                "wordpress"
+            ],
+            "install-path": "../wpdesk/wp-notice"
+        }
+    ],
+    "dev": true,
+    "dev-package-names": []
+}
